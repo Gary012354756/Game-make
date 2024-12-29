@@ -18,7 +18,7 @@ public class enemy_animator : MonoBehaviour
     health hp;
 
     // 最大加速度
-    public float maxAccer = 5f;
+    public float maxAccer = 3f;
 
     // 記錄最後更新時間 (用於巡邏)
     float lastTime;

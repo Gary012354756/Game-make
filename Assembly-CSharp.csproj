@@ -74,7 +74,12 @@
     <Compile Include="Assets\資源目錄\Locomotion\Scripts\Locomotion.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Vefects\Free Fire VFX\Shaders\SH_Vefects_VFX_SRP_Particles_Erosion_01.shader" />
+    <None Include="Assets\Vefects\Free Fire VFX\Shaders\SH_Vefects_VFX_SRP_Heat_Haze_01.shader" />
+    <None Include="Assets\Vefects\Free Fire VFX\_ Extra\Shaders\SH_Vefects_Extra_Billboard_01.shader" />
     <None Include="Assets\資源目錄\Knight\shaders\doublesidedshader.shader" />
+    <None Include="Assets\Vefects\Free Fire VFX\Shaders\SH_Vefects_VFX_SRP_Fire_Flames_01.shader" />
+    <None Include="Assets\Vefects\Free Fire VFX\_ Extra\Shaders\SH_Vefects_Extra_Grid_01.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -997,12 +1002,12 @@
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.VSCode.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.AI.Navigation.Editor.ConversionSystem">
       <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VSCode.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow">
